@@ -16,12 +16,12 @@ namespace pp
         private void Form1_Load(object sender, EventArgs e)
         {
             //
-            tbAddMny.Text = "9";
-            tbHeadAndEnd.Text = "800";
+            tbAddMny.Text = "7";
+            tbHeadAndEnd.Text = "900";
 
             //
-            int begin = 60;
-            int end = 90;
+            int begin = 17;
+            int end = 50;
             for (int i = 0; i < (end - begin + 1); i++)
             {
                 Label bttn = new Label();
