@@ -16,7 +16,14 @@ namespace pp
         {
             set
             {
-                lMny2.Text = value;
+                try
+                {
+                    lMny2.Text = value.Substring(1, value.Length - 1);
+                }
+                catch
+                {
+                    lMny2.Text = value;
+                }
             }
         }
 

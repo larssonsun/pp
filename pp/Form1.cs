@@ -16,7 +16,7 @@ namespace pp
         private void Form1_Load(object sender, EventArgs e)
         {
             //
-            tbAddMny.Text = "7";
+            tbAddMny.Text = "10";
             tbHeadAndEnd.Text = "900";
 
             //
